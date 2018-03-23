@@ -1,0 +1,9 @@
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.deps.json
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.csprojResolveAssemblyReference.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.csproj.CoreCompileInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.AssemblyInfoInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.AssemblyInfo.cs
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core.Interfacecs\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfacecs.pdb

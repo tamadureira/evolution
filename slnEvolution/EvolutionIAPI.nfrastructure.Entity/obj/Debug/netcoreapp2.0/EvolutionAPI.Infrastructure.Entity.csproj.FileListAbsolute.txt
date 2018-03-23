@@ -1,0 +1,13 @@
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.csprojResolveAssemblyReference.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.csproj.CoreCompileInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.AssemblyInfoInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.AssemblyInfo.cs
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.deps.json
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfaces.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfaces.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.pdb

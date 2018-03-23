@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "EvolutionAPI.Core.Interfaces": {
+      "commandName": "Executable"
+    }
+  }
+}

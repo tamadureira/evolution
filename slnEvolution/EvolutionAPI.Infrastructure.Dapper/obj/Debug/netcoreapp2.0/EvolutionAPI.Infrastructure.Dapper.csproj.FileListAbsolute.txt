@@ -1,0 +1,9 @@
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.deps.json
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.csprojResolveAssemblyReference.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.csproj.CoreCompileInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.AssemblyInfoInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.AssemblyInfo.cs
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.pdb
