@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EvolutionAPI.Service</name>
+    </assembly>
+    <members>
+        <member name="M:EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1(EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet)">
+            <summary>
+            Listar Descrição - V1
+            </summary>
+            <param name="listaDescricaoGet"></param>
+            <returns>Descrição</returns>
+            <remarks>Este método devolve a descrição.</remarks>
+            <response code="200">Visualização da descrição</response>
+            <response code="400">Dados inválidos</response>
+            <response code="404">Não existe descrição</response>
+            <response code="500">Erro no servidor</response>
+                  
+        </member>
+        <member name="M:EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2(EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet)">
+            <summary>
+            Listar Descrição - V2
+            </summary>
+            <param name="listaDescricaoGet"></param>
+            <returns>Descrição</returns>
+            <remarks>Este método devolve a descrição.</remarks>
+            <response code="200">Visualização da descrição</response>
+            <response code="400">Dados inválidos</response>
+            <response code="404">Não existe descrição</response>
+            <response code="500">Erro no servidor</response>
+                  
+        </member>
+    </members>
+</doc>

@@ -23,11 +23,27 @@ namespace EvolutionAPI.Core.Services
             _validationFactory = validationFactory;
         }
 
-        public ITeste ObterDescricao(ListaDescricaoGet listaDescricaoGet)
+        public ITeste ObterDescricaoV1(ListaDescricaoGet listaDescricaoGet)
         {
             try
             {
-                var descricao = _mensagemRepository.ObterDescricao(listaDescricaoGet.Codigo);
+                var descricao = _mensagemRepository.ObterDescricaoV1(listaDescricaoGet.Codigo);
+
+                return _aggregateFactory.CarregarDescricao(descricao.Descricao);
+            }
+            catch (CoreException ex)
+            {
+                ValidationResult validationResult = _validationFactory.CreateValidationResult();
+                validationResult.AddValidationError("ObterDescricao", ex.Message);
+                throw new CoreException(validationResult);
+            }
+        }
+
+        public ITeste ObterDescricaoV2(ListaDescricaoGet listaDescricaoGet)
+        {
+            try
+            {
+                var descricao = _mensagemRepository.ObterDescricaoV2(listaDescricaoGet.Codigo);
 
                 return _aggregateFactory.CarregarDescricao(descricao.Descricao);
             }

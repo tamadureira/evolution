@@ -1,0 +1,490 @@
+2018-03-28 17:05:44.547 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:05:44.948 -03:00 [Information] Request finished in 472.5224ms 200 text/html
+2018-03-28 17:05:45.372 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:05:45.573 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:05:45.612 -03:00 [Information] Request finished in 44.5361ms 404 
+2018-03-28 17:05:45.617 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:05:45.625 -03:00 [Information] Request finished in 5.678ms 404 
+2018-03-28 17:05:45.814 -03:00 [Information] Request finished in 417.2622ms 200 application/json
+2018-03-28 17:06:07.565 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:06:08.025 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:06:08.459 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:06:09.108 -03:00 [Information] Executed DbCommand ("91"ms) [Parameters=["@__codigo_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Codigo], [e].[DataCadastro], [e].[Descricao]
+FROM [Teste] AS [e]
+WHERE [e].[Codigo] = @__codigo_0"
+2018-03-28 17:06:09.232 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-28 17:06:09.255 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service)" in 1556.417ms
+2018-03-28 17:06:09.261 -03:00 [Information] Request finished in 1695.2068ms 200 text/plain; charset=utf-8
+2018-03-28 17:20:34.352 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:20:34.688 -03:00 [Information] Request finished in 369.2553ms 200 text/html
+2018-03-28 17:20:35.057 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:20:35.151 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:20:35.179 -03:00 [Information] Request finished in 29.8215ms 404 
+2018-03-28 17:20:35.186 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:20:35.190 -03:00 [Information] Request finished in 2.4831ms 404 
+2018-03-28 17:20:35.500 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.NotSupportedException: HTTP method "GET" & path "api/Evolution/Evolution/{Codigo}" overloaded by actions - EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service),EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-03-28 17:20:35.663 -03:00 [Information] Request finished in 608.4912ms 500 text/html; charset=utf-8
+2018-03-28 17:21:29.868 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:21:30.246 -03:00 [Information] Request finished in 383.9286ms 200 text/html
+2018-03-28 17:21:30.679 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:21:30.749 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:21:30.773 -03:00 [Information] Request finished in 19.9003ms 404 
+2018-03-28 17:21:30.786 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:21:30.791 -03:00 [Information] Request finished in 3.6198ms 404 
+2018-03-28 17:21:30.856 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.NotSupportedException: HTTP method "GET" & path "api/Evolution/Evolution/{Codigo}" overloaded by actions - EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service),EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-03-28 17:21:30.972 -03:00 [Information] Request finished in 292.3753ms 500 text/html; charset=utf-8
+2018-03-28 17:21:43.694 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:21:43.697 -03:00 [Information] Request finished in 3.0213ms 200 text/html
+2018-03-28 17:21:44.020 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:21:44.024 -03:00 [Information] Request finished in 2.0062ms 404 
+2018-03-28 17:21:44.029 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:21:44.033 -03:00 [Information] Request finished in 3.124ms 404 
+2018-03-28 17:21:44.056 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:21:44.079 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.NotSupportedException: HTTP method "GET" & path "api/Evolution/Evolution/{Codigo}" overloaded by actions - EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service),EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service). Actions require unique method/path combination for Swagger 2.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-03-28 17:21:44.097 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/favicon-32x32.png  
+2018-03-28 17:21:44.116 -03:00 [Information] Request finished in 56.181ms 500 text/html; charset=utf-8
+2018-03-28 17:21:44.131 -03:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2018-03-28 17:21:44.145 -03:00 [Information] Request finished in 48.8738ms 200 image/png
+2018-03-28 17:22:29.645 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:22:29.986 -03:00 [Information] Request finished in 367.4483ms 200 text/html
+2018-03-28 17:22:30.341 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:22:30.442 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:22:30.465 -03:00 [Information] Request finished in 21.1788ms 404 
+2018-03-28 17:22:30.488 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:22:30.511 -03:00 [Information] Request finished in 15.3705ms 404 
+2018-03-28 17:22:30.664 -03:00 [Information] Request finished in 322.4181ms 200 application/json
+2018-03-28 17:22:43.969 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:22:44.761 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:22:45.322 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:22:46.295 -03:00 [Information] Executed DbCommand ("113"ms) [Parameters=["@__codigo_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Codigo], [e].[DataCadastro], [e].[Descricao]
+FROM [Teste] AS [e]
+WHERE [e].[Codigo] = @__codigo_0"
+2018-03-28 17:22:46.445 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-28 17:22:46.465 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV1 (EvolutionAPI.Service)" in 2256.0716ms
+2018-03-28 17:22:46.471 -03:00 [Information] Request finished in 2501.382ms 200 text/plain; charset=utf-8
+2018-03-28 17:23:41.701 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:23:42.045 -03:00 [Information] Request finished in 365.8029ms 200 text/html
+2018-03-28 17:23:42.391 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:23:42.447 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:23:42.472 -03:00 [Information] Request finished in 20.4812ms 404 
+2018-03-28 17:23:42.478 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:23:42.494 -03:00 [Information] Request finished in 5.0654ms 404 
+2018-03-28 17:23:42.654 -03:00 [Information] Request finished in 262.5759ms 200 application/json
+2018-03-28 17:23:49.309 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:23:49.746 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:24:03.733 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:24:04.324 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:27:03.061 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:27:03.405 -03:00 [Information] Request finished in 371.7093ms 200 text/html
+2018-03-28 17:27:03.772 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:27:03.835 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:27:03.860 -03:00 [Information] Request finished in 20.4289ms 404 
+2018-03-28 17:27:03.867 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:27:03.882 -03:00 [Information] Request finished in 3.7039ms 404 
+2018-03-28 17:27:04.036 -03:00 [Information] Request finished in 264.1071ms 200 application/json
+2018-03-28 17:27:14.457 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:27:14.891 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:27:39.797 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:27:40.344 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:30:37.753 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:30:38.127 -03:00 [Information] Request finished in 393.3661ms 200 text/html
+2018-03-28 17:30:38.484 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:30:38.550 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:30:38.579 -03:00 [Information] Request finished in 28.6065ms 404 
+2018-03-28 17:30:38.587 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:30:38.596 -03:00 [Information] Request finished in 4.1651ms 404 
+2018-03-28 17:30:38.756 -03:00 [Information] Request finished in 271.801ms 200 application/json
+2018-03-28 17:30:51.721 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:30:52.139 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:30:55.646 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:30:56.203 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:32:07.043 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:32:07.390 -03:00 [Information] Request finished in 368.8752ms 200 text/html
+2018-03-28 17:32:07.745 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:32:07.842 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:32:07.879 -03:00 [Information] Request finished in 32.4833ms 404 
+2018-03-28 17:32:07.886 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:32:07.891 -03:00 [Information] Request finished in 4.5968ms 404 
+2018-03-28 17:32:08.014 -03:00 [Information] Request finished in 267.6308ms 200 application/json
+2018-03-28 17:32:12.937 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:32:13.367 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:32:17.725 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:32:18.357 -03:00 [Error] Failed executing DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Codigo], [t].[DataCadastro], [t].[Descricao]
+FROM (
+    select Codigo, DataCadastro, Descricao from Teste where Codigo = c5c262c0-1067-4531-ae54-11287c6d5b32
+) AS [t]"
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'c6d5b32'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:d545c8ae-d3a4-481c-9bae-02baf8771a4f
+Error Number:102,State:1,Class:15
+2018-03-28 17:32:18.448 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'c6d5b32'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:d545c8ae-d3a4-481c-9bae-02baf8771a4f
+Error Number:102,State:1,Class:15"
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'c6d5b32'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:d545c8ae-d3a4-481c-9bae-02baf8771a4f
+Error Number:102,State:1,Class:15
+2018-03-28 17:35:16.050 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:35:16.395 -03:00 [Information] Request finished in 368.014ms 200 text/html
+2018-03-28 17:35:16.742 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:35:16.814 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:35:16.837 -03:00 [Information] Request finished in 20.1993ms 404 
+2018-03-28 17:35:16.844 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:35:16.849 -03:00 [Information] Request finished in 4.2231ms 404 
+2018-03-28 17:35:17.007 -03:00 [Information] Request finished in 264.253ms 200 application/json
+2018-03-28 17:35:21.898 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:35:22.337 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:35:43.803 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:35:44.350 -03:00 [Information] Executed DbCommand ("69"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Codigo], [t].[DataCadastro], [t].[Descricao]
+FROM (
+    select Codigo, DataCadastro, Descricao from Teste where Codigo = 'c5c262c0-1067-4531-ae54-11287c6d5b32'
+) AS [t]"
+2018-03-28 17:35:53.405 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-28 17:35:53.428 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" in 31404.0285ms
+2018-03-28 17:35:53.435 -03:00 [Information] Request finished in 31534.5582ms 200 text/plain; charset=utf-8
+2018-03-28 17:39:28.098 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:39:28.433 -03:00 [Information] Request finished in 378.0472ms 200 text/html
+2018-03-28 17:39:28.782 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:39:28.854 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:39:28.882 -03:00 [Information] Request finished in 40.3139ms 404 
+2018-03-28 17:39:28.888 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:39:28.893 -03:00 [Information] Request finished in 2.6512ms 404 
+2018-03-28 17:39:29.046 -03:00 [Information] Request finished in 263.3008ms 200 application/json
+2018-03-28 17:41:45.533 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:41:45.971 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:41:50.693 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:41:51.248 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:49:55.553 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:49:55.915 -03:00 [Information] Request finished in 379.8022ms 200 text/html
+2018-03-28 17:49:56.248 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:49:56.367 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:49:56.386 -03:00 [Information] Request finished in 19.1642ms 404 
+2018-03-28 17:49:56.394 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:49:56.397 -03:00 [Information] Request finished in 2.241ms 404 
+2018-03-28 17:49:56.521 -03:00 [Information] Request finished in 273.2803ms 200 application/json
+2018-03-28 17:50:01.281 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:50:01.723 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:50:05.315 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:50:05.877 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:54:40.687 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:54:41.057 -03:00 [Information] Request finished in 391.2088ms 200 text/html
+2018-03-28 17:54:41.409 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:54:41.494 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:54:41.531 -03:00 [Information] Request finished in 36.2934ms 404 
+2018-03-28 17:54:41.543 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:54:41.548 -03:00 [Information] Request finished in 2.8507ms 404 
+2018-03-28 17:54:41.681 -03:00 [Information] Request finished in 271.3761ms 200 application/json
+2018-03-28 17:54:46.907 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:54:47.319 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:54:51.099 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:54:51.649 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:55:47.928 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:55:48.273 -03:00 [Information] Request finished in 365.6746ms 200 text/html
+2018-03-28 17:55:48.635 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:55:48.726 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:55:48.760 -03:00 [Information] Request finished in 30.0797ms 404 
+2018-03-28 17:55:48.768 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:55:48.772 -03:00 [Information] Request finished in 4.0416ms 404 
+2018-03-28 17:55:48.905 -03:00 [Information] Request finished in 268.5391ms 200 application/json
+2018-03-28 17:55:53.211 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:55:53.640 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:56:19.256 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:56:53.330 -03:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"EvolutionAPI.Infrastructure.Entity.EvolutionContext"'."
+""System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)"
+System.InvalidOperationException: No mapping to a relational type can be found for the CLR type 'SqlParameter'.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTypeMapperExtensions.GetMapping(IRelationalTypeMapper typeMapper, Type clrType)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.DynamicRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.CompositeRelationalParameter.AddDbParameter(DbCommand command, Object value)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalParameterBase.AddDbParameter(DbCommand command, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.CreateCommand(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+2018-03-28 17:57:25.922 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 17:57:26.265 -03:00 [Information] Request finished in 375.6871ms 200 text/html
+2018-03-28 17:57:26.605 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 17:57:26.722 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 17:57:26.747 -03:00 [Information] Request finished in 20.2544ms 404 
+2018-03-28 17:57:26.754 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 17:57:26.780 -03:00 [Information] Request finished in 18.0532ms 404 
+2018-03-28 17:57:26.881 -03:00 [Information] Request finished in 274.5722ms 200 application/json
+2018-03-28 17:57:31.172 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterDescricaoV2/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 17:57:31.610 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 17:57:34.922 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 17:57:35.455 -03:00 [Information] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [t].[Codigo], [t].[DataCadastro], [t].[Descricao]
+FROM (
+    select Codigo, DataCadastro, Descricao from Teste where Codigo = 'c5c262c0-1067-4531-ae54-11287c6d5b32'
+) AS [t]"
+2018-03-28 17:57:38.353 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-28 17:57:38.373 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterDescricaoV2 (EvolutionAPI.Service)" in 7085.6927ms
+2018-03-28 17:57:38.378 -03:00 [Information] Request finished in 7205.9333ms 200 text/plain; charset=utf-8

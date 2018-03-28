@@ -1,0 +1,99 @@
+2018-03-28 16:42:49.205 -03:00 [Fatal] Application startup exception
+System.IO.FileNotFoundException: Could not find file 'C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp2.0\EvolutionAPI.Service.xml'.
+File name: 'C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp2.0\EvolutionAPI.Service.xml'
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.<>c__DisplayClass28_0.<IncludeXmlComments>b__0()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.CreateSwaggerProvider(IServiceProvider serviceProvider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass22_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-03-28 16:42:50.094 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger  
+2018-03-28 16:42:50.265 -03:00 [Information] Request finished in 227.3797ms 500 text/html; charset=utf-8
+2018-03-28 16:42:50.471 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/favicon.ico  
+2018-03-28 16:42:50.507 -03:00 [Information] Request finished in 36.8669ms 500 text/html; charset=utf-8
+2018-03-28 16:49:14.845 -03:00 [Fatal] Application startup exception
+System.IO.FileNotFoundException: Could not find file 'C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp2.0\EvolutionAPI.Service.xml'.
+File name: 'C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp2.0\EvolutionAPI.Service.xml'
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.<>c__DisplayClass28_0.<IncludeXmlComments>b__0()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.CreateSwaggerProvider(IServiceProvider serviceProvider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitTransient(TransientCallSite transientCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass22_0.<RealizeService>b__0(ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-03-28 16:49:15.330 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger  
+2018-03-28 16:49:15.506 -03:00 [Information] Request finished in 203.683ms 500 text/html; charset=utf-8
+2018-03-28 16:49:15.600 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/favicon.ico  
+2018-03-28 16:49:15.627 -03:00 [Information] Request finished in 26.49ms 500 text/html; charset=utf-8
+2018-03-28 16:50:52.795 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger  
+2018-03-28 16:50:53.488 -03:00 [Information] Request finished in 730.7648ms 301 
+2018-03-28 16:50:53.502 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 16:50:53.532 -03:00 [Information] Request finished in 28.3656ms 200 text/html
+2018-03-28 16:50:53.542 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js  
+2018-03-28 16:50:53.548 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js  
+2018-03-28 16:50:53.552 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui.css  
+2018-03-28 16:50:53.596 -03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2018-03-28 16:50:53.596 -03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2018-03-28 16:50:53.598 -03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2018-03-28 16:50:53.660 -03:00 [Information] Request finished in 98.8033ms 200 text/css
+2018-03-28 16:50:53.798 -03:00 [Information] Request finished in 249.9801ms 200 application/javascript
+2018-03-28 16:50:53.964 -03:00 [Information] Request finished in 421.8257ms 200 application/javascript
+2018-03-28 16:50:54.460 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 16:50:54.642 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 16:50:54.683 -03:00 [Information] Request finished in 3.4004ms 404 
+2018-03-28 16:50:54.685 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 16:50:54.694 -03:00 [Information] Request finished in 34.2092ms 404 
+2018-03-28 16:50:54.718 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/favicon-32x32.png  
+2018-03-28 16:50:54.776 -03:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2018-03-28 16:50:54.799 -03:00 [Information] Request finished in 62.1836ms 200 image/png
+2018-03-28 16:50:54.864 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/favicon-16x16.png  
+2018-03-28 16:50:54.865 -03:00 [Information] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+2018-03-28 16:50:54.869 -03:00 [Information] Request finished in 23.7556ms 200 image/png
+2018-03-28 16:50:55.024 -03:00 [Information] Request finished in 563.3633ms 200 application/json
+2018-03-28 16:52:37.630 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-28 16:52:37.998 -03:00 [Information] Request finished in 393.9761ms 200 text/html
+2018-03-28 16:52:38.367 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-28 16:52:38.609 -03:00 [Information] Request finished in 242.0385ms 200 application/json
+2018-03-28 16:52:39.301 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-28 16:52:39.318 -03:00 [Information] Request finished in 20.6958ms 404 
+2018-03-28 16:52:39.325 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-28 16:52:39.327 -03:00 [Information] Request finished in 1.7663ms 404 
+2018-03-28 16:55:49.803 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/C5C262C0-1067-4531-AE54-11287C6D5B32  
+2018-03-28 16:55:50.839 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterMsgSMS (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.ListaDescricaoGet"]) - ModelState is Valid
+2018-03-28 16:56:12.733 -03:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"EvolutionContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "RowNumberPaging "
+2018-03-28 16:56:13.777 -03:00 [Information] Executed DbCommand ("101"ms) [Parameters=["@__codigo_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Codigo], [e].[DataCadastro], [e].[Descricao]
+FROM [Teste] AS [e]
+WHERE [e].[Codigo] = @__codigo_0"
+2018-03-28 16:56:33.495 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-28 16:56:33.577 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterMsgSMS (EvolutionAPI.Service)" in 43424.2887ms
+2018-03-28 16:56:33.582 -03:00 [Information] Request finished in 43778.984ms 200 application/json; charset=utf-8

@@ -5,6 +5,7 @@ namespace EvolutionAPI.Core.Interfaces.Repository
 {
     public interface IEvolutionRepository
     {
-        ITeste ObterDescricao(Guid codigo);
+        ITeste ObterDescricaoV1(Guid codigo);
+        ITeste ObterDescricaoV2(Guid codigo);
     }
 }

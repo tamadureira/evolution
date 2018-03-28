@@ -18,6 +18,7 @@ namespace EvolutionAPI.Infrastructure.Entity
             {
                 entity.HasKey(e => e.Codigo).HasName("PK_Teste"); ;
 
+                entity.Property(e => e.Codigo).HasColumnType("uniqueidentifier");
                 entity.Property(e => e.DataCadastro).HasColumnType("datetime");
                 entity.Property(e => e.Descricao).HasColumnType("varchar(255)");
 

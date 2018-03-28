@@ -11,15 +11,18 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
-        "Key": "Value",
+        "SQLCONNSTR_EvolutionContext": "Server=bbssqlhml;Database=OLEORIGINACAO;User Id=U_MensagemAPI;Password=U_MensagemAPI",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "EvolutionAPI.Service": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "api/values",
       "environmentVariables": {
+        "SQLCONNSTR_EvolutionContext": "Server=bbssqlhml;Database=OLEORIGINACAO;User Id=U_MensagemAPI;Password=U_MensagemAPI",
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:58812/"

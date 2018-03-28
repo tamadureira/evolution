@@ -6,6 +6,7 @@ namespace EvolutionAPI.Core.Interfaces.Services
 {
     public interface IEvolutionService
     {
-        ITeste ObterDescricao(ListaDescricaoGet listaDescricaoGet);
+        ITeste ObterDescricaoV1(ListaDescricaoGet listaDescricaoGet);
+        ITeste ObterDescricaoV2(ListaDescricaoGet listaDescricaoGet);
     }
 }
