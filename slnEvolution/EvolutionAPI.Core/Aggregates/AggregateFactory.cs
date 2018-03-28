@@ -1,12 +1,13 @@
-﻿using EvolutionAPI.Core.Interfaces.Aggregates;
+﻿using System;
+using EvolutionAPI.Core.Interfaces.Aggregates;
 
 namespace EvolutionAPI.Core.Aggregates
 {
     public class AggregateFactory : IAggregateFactory
     {
-        public void Teste()
+        public ITeste CarregarDescricao(string descricao)
         {
-            throw new System.NotImplementedException();
+            return new Teste(descricao);
         }
     }
 }

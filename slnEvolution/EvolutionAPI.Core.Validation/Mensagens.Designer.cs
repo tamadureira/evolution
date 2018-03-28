@@ -59,5 +59,14 @@ namespace EvolutionAPI.Core.Validation {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Código não pode ser nulo.
+        /// </summary>
+        internal static string CodigoNotNull {
+            get {
+                return ResourceManager.GetString("CodigoNotNull", resourceCulture);
+            }
+        }
     }
 }

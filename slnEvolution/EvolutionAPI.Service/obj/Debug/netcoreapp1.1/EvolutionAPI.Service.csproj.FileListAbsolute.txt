@@ -1,0 +1,11 @@
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp1.1\EvolutionAPI.Service.deps.json
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp1.1\EvolutionAPI.Service.runtimeconfig.json
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp1.1\EvolutionAPI.Service.runtimeconfig.dev.json
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp1.1\EvolutionAPI.Service.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\bin\Debug\netcoreapp1.1\EvolutionAPI.Service.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\obj\Debug\netcoreapp1.1\EvolutionAPI.Service.csprojResolveAssemblyReference.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\obj\Debug\netcoreapp1.1\EvolutionAPI.Service.csproj.CoreCompileInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\obj\Debug\netcoreapp1.1\EvolutionAPI.Service.AssemblyInfoInputs.cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\obj\Debug\netcoreapp1.1\EvolutionAPI.Service.AssemblyInfo.cs
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\obj\Debug\netcoreapp1.1\EvolutionAPI.Service.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Service\obj\Debug\netcoreapp1.1\EvolutionAPI.Service.pdb

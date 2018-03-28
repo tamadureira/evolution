@@ -1,7 +1,9 @@
-﻿namespace EvolutionAPI.Core.Interfaces.Aggregates
+﻿using System;
+
+namespace EvolutionAPI.Core.Interfaces.Aggregates
 {
     public interface IAggregateFactory
     {
-        void Teste();
+        ITeste CarregarDescricao(string descricao);
     }
 }
