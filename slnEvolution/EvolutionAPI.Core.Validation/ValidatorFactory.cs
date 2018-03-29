@@ -9,7 +9,8 @@ namespace EvolutionAPI.Core.Validation
     public class ValidatorFactory : IValidatorFactory
     {
         private readonly Dictionary<Type, Type> _conversions = new Dictionary<Type, Type>() {
-            { typeof(ListaDescricaoGet), typeof(Validator<ListaDescricaoGet, ListarDescricaoFluentValidator>)},
+            { typeof(DescricaoGet), typeof(Validator<DescricaoGet, DescricaoFluentValidator>)},
+            { typeof(DescricaoDapperGet), typeof(Validator<DescricaoDapperGet, DescricaoDapperFluentValidator>)}            
         };
 
         public ValidationResult CreateValidationResult()

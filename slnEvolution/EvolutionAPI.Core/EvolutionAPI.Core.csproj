@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EvolutionAPI.Core.Interfaces\EvolutionAPI.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\EvolutionAPI.Infrastructure.Dapper\EvolutionAPI.Infrastructure.Dapper.csproj" />
   </ItemGroup>
 
 </Project>

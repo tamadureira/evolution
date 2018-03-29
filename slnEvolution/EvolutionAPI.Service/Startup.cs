@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
-using System.Configuration;
 using Newtonsoft.Json;
 using Swashbuckle.AspNetCore.Swagger;
 using System.IO;
@@ -27,6 +22,8 @@ using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Serilog;
 using Serilog.Formatting.Json;
+using EvolutionAPI.Infrastructure.Dapper.Repository;
+using EvolutionAPI.Infrastructure.Dapper;
 
 namespace EvolutionAPI.Service
 {
@@ -92,6 +89,9 @@ namespace EvolutionAPI.Service
 
             services.AddScoped<IEvolutionService, EvolutionService>();
             services.AddScoped<IEvolutionRepository, EvolutionRepository>();
+
+            services.AddScoped<IEvolutionDapperRepository, EvolutionDapperRepository>();
+            services.AddScoped(s => new EvolutionContextDapper(Environment.GetEnvironmentVariable("SQLCONNSTR_EvolutionContext")));
         }
 
         private void ConfigureOriginacaoAdapter(IServiceCollection services)

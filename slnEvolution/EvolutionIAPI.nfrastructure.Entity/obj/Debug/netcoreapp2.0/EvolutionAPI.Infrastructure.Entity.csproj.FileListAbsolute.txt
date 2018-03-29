@@ -13,3 +13,5 @@ C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\ne
 C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.pdb
 C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.Mensagens.resources
 C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Entity.csproj.GenerateResource.Cache
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionIAPI.nfrastructure.Entity\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.pdb

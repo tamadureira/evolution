@@ -9,3 +9,5 @@ C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core\obj\Debug\netcoreapp2.0\Evolu
 C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core\obj\Debug\netcoreapp2.0\EvolutionAPI.Core.csprojResolveAssemblyReference.cache
 C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfaces.dll
 C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfaces.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Core\bin\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.pdb

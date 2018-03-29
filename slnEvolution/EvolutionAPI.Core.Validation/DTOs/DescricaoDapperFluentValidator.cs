@@ -3,11 +3,11 @@ using FluentValidation;
 
 namespace EvolutionAPI.Core.Validation.DTOs
 {
-    public class ListarDescricaoFluentValidator : AbstractValidator<ListaDescricaoGet>
+    public class DescricaoDapperFluentValidator : AbstractValidator<DescricaoDapperGet>
     {
-        public ListarDescricaoFluentValidator()
+        public DescricaoDapperFluentValidator()
         {
-            RuleFor(c => c.Codigo)
+            RuleFor(c => c.Descricao)
                 .NotNull().WithMessage(Mensagens.CodigoNotNull);
         }
     }

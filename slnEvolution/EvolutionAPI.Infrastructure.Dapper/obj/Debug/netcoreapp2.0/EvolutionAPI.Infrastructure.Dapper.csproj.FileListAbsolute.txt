@@ -7,3 +7,5 @@ C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\ne
 C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.AssemblyInfo.cs
 C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.dll
 C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\obj\Debug\netcoreapp2.0\EvolutionAPI.Infrastructure.Dapper.pdb
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfaces.dll
+C:\_Tiago\Evolution\slnEvolution\EvolutionAPI.Infrastructure.Dapper\bin\Debug\netcoreapp2.0\EvolutionAPI.Core.Interfaces.pdb

@@ -1,0 +1,54 @@
+2018-03-29 10:06:03.263 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-29 10:06:03.658 -03:00 [Information] Request finished in 413.4146ms 200 text/html
+2018-03-29 10:06:04.060 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-29 10:06:04.352 -03:00 [Information] Request finished in 293.1332ms 200 application/json
+2018-03-29 10:06:05.669 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-29 10:06:05.685 -03:00 [Information] Request finished in 16.5091ms 404 
+2018-03-29 10:06:05.692 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-29 10:06:05.694 -03:00 [Information] Request finished in 2.0075ms 404 
+2018-03-29 10:07:09.406 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-29 10:07:09.808 -03:00 [Information] Request finished in 388.6672ms 200 text/html
+2018-03-29 10:07:10.146 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-29 10:07:10.234 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-29 10:07:10.279 -03:00 [Information] Request finished in 23.9503ms 404 
+2018-03-29 10:07:10.285 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-29 10:07:10.291 -03:00 [Information] Request finished in 3.4678ms 404 
+2018-03-29 10:07:10.452 -03:00 [Information] Request finished in 306.7737ms 200 application/json
+2018-03-29 10:07:21.128 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterTeste/PrimeiroTeste  
+2018-03-29 10:07:21.850 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterTeste (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.DescricaoDapperGet"]) - ModelState is Valid
+2018-03-29 10:08:12.374 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-29 10:08:12.723 -03:00 [Information] Request finished in 375.0299ms 200 text/html
+2018-03-29 10:08:13.062 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-29 10:08:13.117 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-29 10:08:13.146 -03:00 [Information] Request finished in 27.3127ms 404 
+2018-03-29 10:08:13.152 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-29 10:08:13.156 -03:00 [Information] Request finished in 2.6326ms 404 
+2018-03-29 10:08:13.340 -03:00 [Information] Request finished in 277.5532ms 200 application/json
+2018-03-29 10:08:31.607 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterTeste/PrimeiroTeste  
+2018-03-29 10:08:32.038 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterTeste (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.DescricaoDapperGet"]) - ModelState is Valid
+2018-03-29 10:09:09.710 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-29 10:09:10.059 -03:00 [Information] Request finished in 371.5496ms 200 text/html
+2018-03-29 10:09:10.392 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-29 10:09:10.494 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-29 10:09:10.534 -03:00 [Information] Request finished in 17.4877ms 404 
+2018-03-29 10:09:10.542 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-29 10:09:10.544 -03:00 [Information] Request finished in 2.1088ms 404 
+2018-03-29 10:09:10.671 -03:00 [Information] Request finished in 278.0581ms 200 application/json
+2018-03-29 10:13:12.929 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterTeste/PrimeiroTeste  
+2018-03-29 10:13:13.355 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterTeste (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.DescricaoDapperGet"]) - ModelState is Valid
+2018-03-29 10:13:42.635 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-29 10:13:42.656 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterTeste (EvolutionAPI.Service)" in 29610.2098ms
+2018-03-29 10:13:42.660 -03:00 [Information] Request finished in 29729.9055ms 200 text/plain; charset=utf-8
+2018-03-29 10:14:12.674 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/  
+2018-03-29 10:14:13.018 -03:00 [Information] Request finished in 367.9374ms 200 text/html
+2018-03-29 10:14:13.364 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/v1/swagger.json  
+2018-03-29 10:14:13.414 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-bundle.js.map  
+2018-03-29 10:14:13.433 -03:00 [Information] Request finished in 18.2684ms 404 
+2018-03-29 10:14:13.452 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/swagger/swagger-ui-standalone-preset.js.map  
+2018-03-29 10:14:13.457 -03:00 [Information] Request finished in 2.0411ms 404 
+2018-03-29 10:14:13.634 -03:00 [Information] Request finished in 269.9003ms 200 application/json
+2018-03-29 10:15:28.717 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58811/api/Evolution/Evolution/ObterTeste/PrimeiroTeste  
+2018-03-29 10:15:29.147 -03:00 [Information] Executing action method "EvolutionAPI.Service.Controllers.EvolutionController.ObterTeste (EvolutionAPI.Service)" with arguments (["EvolutionAPI.Core.Interfaces.DTOs.DescricaoDapperGet"]) - ModelState is Valid
+2018-03-29 10:15:29.727 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-03-29 10:15:29.773 -03:00 [Information] Executed action "EvolutionAPI.Service.Controllers.EvolutionController.ObterTeste (EvolutionAPI.Service)" in 942.2374ms
+2018-03-29 10:15:29.776 -03:00 [Information] Request finished in 1101.9687ms 200 application/json; charset=utf-8

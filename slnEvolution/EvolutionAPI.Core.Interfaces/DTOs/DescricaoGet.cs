@@ -2,7 +2,7 @@
 
 namespace EvolutionAPI.Core.Interfaces.DTOs
 {
-    public class ListaDescricaoGet
+    public class DescricaoGet
     {
         public Guid Codigo { get; set; }
     }

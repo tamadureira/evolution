@@ -26,7 +26,7 @@ namespace EvolutionAPI.Service.Controllers
         /// <summary>
         /// Listar Descrição - V1
         /// </summary>
-        /// <param name="listaDescricaoGet"></param>
+        /// <param name="descricaoGet"></param>
         /// <returns>Descrição</returns>
         /// <remarks>Este método devolve a descrição.</remarks>
         /// <response code="200">Visualização da descrição</response>
@@ -39,17 +39,17 @@ namespace EvolutionAPI.Service.Controllers
         [ProducesResponseType(typeof(ValidationResult), 400)]
         [ProducesResponseType(typeof(string), 404)]
         [ProducesResponseType(typeof(string), 500)]
-        public IActionResult ObterDescricaoV1(ListaDescricaoGet listaDescricaoGet)
+        public IActionResult ObterDescricaoV1(DescricaoGet descricaoGet)
         {
-            IValidator<ListaDescricaoGet> validator = _validatorFactory.CreateValidator<ListaDescricaoGet>();
-            var validationResult = validator.Validate(listaDescricaoGet);
+            IValidator<DescricaoGet> validator = _validatorFactory.CreateValidator<DescricaoGet>();
+            var validationResult = validator.Validate(descricaoGet);
 
             if (!validationResult.IsValid)
                 return BadRequest(validationResult);
 
             try
             {
-                var mensagem = _evolutionService.ObterDescricaoV1(listaDescricaoGet);
+                var mensagem = _evolutionService.ObterDescricaoV1(descricaoGet);
 
                 return Ok(mensagem.Descricao);
             }
@@ -66,7 +66,7 @@ namespace EvolutionAPI.Service.Controllers
         /// <summary>
         /// Listar Descrição - V2
         /// </summary>
-        /// <param name="listaDescricaoGet"></param>
+        /// <param name="descricaoGet"></param>
         /// <returns>Descrição</returns>
         /// <remarks>Este método devolve a descrição.</remarks>
         /// <response code="200">Visualização da descrição</response>
@@ -79,17 +79,17 @@ namespace EvolutionAPI.Service.Controllers
         [ProducesResponseType(typeof(ValidationResult), 400)]
         [ProducesResponseType(typeof(string), 404)]
         [ProducesResponseType(typeof(string), 500)]
-        public IActionResult ObterDescricaoV2(ListaDescricaoGet listaDescricaoGet)
+        public IActionResult ObterDescricaoV2(DescricaoGet descricaoGet)
         {
-            IValidator<ListaDescricaoGet> validator = _validatorFactory.CreateValidator<ListaDescricaoGet>();
-            var validationResult = validator.Validate(listaDescricaoGet);
+            IValidator<DescricaoGet> validator = _validatorFactory.CreateValidator<DescricaoGet>();
+            var validationResult = validator.Validate(descricaoGet);
 
             if (!validationResult.IsValid)
                 return BadRequest(validationResult);
 
             try
             {
-                var mensagem = _evolutionService.ObterDescricaoV2(listaDescricaoGet);
+                var mensagem = _evolutionService.ObterDescricaoV2(descricaoGet);
 
                 return Ok(mensagem.Descricao);
             }
@@ -103,6 +103,45 @@ namespace EvolutionAPI.Service.Controllers
 
         #endregion
 
+        #region Dapper
+
+        /// <summary>
+        /// Listar Teste
+        /// </summary>
+        /// <param name="descricaoDapperGet"></param>
+        /// <returns>Descrição</returns>
+        /// <remarks>Este método devolve a descrição.</remarks>
+        /// <response code="200">Visualização da descrição</response>
+        /// <response code="400">Dados inválidos</response>
+        /// <response code="404">Não existe descrição</response>
+        /// <response code="500">Erro no servidor</response>
+        ///       
+        [HttpGet("Evolution/ObterTeste/{Descricao}")]
+        [ProducesResponseType(typeof(string), 200)]
+        [ProducesResponseType(typeof(ValidationResult), 400)]
+        [ProducesResponseType(typeof(string), 404)]
+        [ProducesResponseType(typeof(string), 500)]
+        public IActionResult ObterTeste(DescricaoDapperGet descricaoDapperGet)
+        {
+            IValidator<DescricaoDapperGet> validator = _validatorFactory.CreateValidator<DescricaoDapperGet>();
+            var validationResult = validator.Validate(descricaoDapperGet);
+
+            if (!validationResult.IsValid)
+                return BadRequest(validationResult);
+
+            try
+            {
+                var teste = _evolutionService.ObterTeste(descricaoDapperGet);
+
+                return Ok(teste);
+            }
+            catch (CoreException ex)
+            {
+                return NotFound(ex.Validation);
+            }
+        }
+        
+        #endregion
 
     }
 }
